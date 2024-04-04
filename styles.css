@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px; /* Espaço adicional acima da pergunta */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.no {
+    transition: all 0.2s ease;
+}
+
+.no:hover {
+    transform: translateY(10px); /* Movimento para baixo ao passar o mouse */
+}
+
+#yes {
+    margin-top: 20px; /* Espaço adicional acima do botão "Sim" */
+}
